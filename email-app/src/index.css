@@ -1,0 +1,35 @@
+body{
+  background-color: #F4F5F9;
+}
+
+.emailCard{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  transition: box-shadow .3s;
+}
+.emailCard:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.avatar p{
+  color: white;
+  margin: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  width: 15px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid #e54065;
+  border-radius: 50%;
+  background-color: #e54065;
+}
